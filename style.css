@@ -119,6 +119,9 @@ color: var(--corDestaque);
     margin-top: 10px;
 }
 
+.topCard ul li a{
+    color: var(--corFundo);
+}
 .topCard ul li{
     margin: 10px;
     padding: 10px;
@@ -619,10 +622,19 @@ footer ul{
 
 footer ul li{
     font-size: 35px;
-    padding: 10px;
+    margin: 15px;
     color: var(--corDestaque);
     list-style: none;
     cursor: pointer;
+}
+
+footer ul li a{
+    color: var(--corDestaque);
+    padding: 15px;
+}
+
+footer ul li a:hover{
+    color: var(--corTexto);
 }
 
 @media screen and (max-width: 812px) {
