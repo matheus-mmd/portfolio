@@ -625,7 +625,11 @@ footer ul li{
     cursor: pointer;
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 812px) {
+    .topBanner{
+        height: 120vh;
+    }
+
     header nav ul{
         display: none;
     }
